@@ -4,14 +4,14 @@
  *
  * Return:0 if no error, non zero if error
  */
-int main(void)
+	int main(void)
 {
-	char number;
+	char i;
 
-	for (number = '0'; number <= '9' ; number++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(number);
-		putchar('\n');
+		putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
