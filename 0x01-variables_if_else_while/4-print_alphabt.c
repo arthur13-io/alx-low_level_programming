@@ -10,8 +10,8 @@
 
 	for (character = 'a'; character <= 'z'; character++)
 	{
-	if (character == 'e' && character == 'q')
-	break;
+	if (character != 'e' && character != 'q')
+	continue;
 	putchar(character);
 	}
 	putchar('\n');
