@@ -10,9 +10,7 @@ void print_name(char *name)
 }
 int main(void)
 {
-	void (*pointer)(char *);
-
-	pointer = &print_name;
-	pointer("David");
+	void (*ptr)(char *) = print_name;
+	ptr("David");
 	return (0);
 }
